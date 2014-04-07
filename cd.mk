@@ -5,12 +5,12 @@ TARGET_SCREEN_WIDTH := 2560
 $(call inherit-product, device/asus/tf701t/tf701t.mk)
 
 # Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/cyandream/config/common_full_tablet_wifionly.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cm_tf701t
+PRODUCT_NAME := cd_tf701t
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := tf701t
 PRODUCT_MODEL := K00C
